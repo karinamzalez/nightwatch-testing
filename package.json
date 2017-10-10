@@ -1,0 +1,32 @@
+{
+  "name": "nightwatch-testing",
+  "version": "1.0.0",
+  "description": "beta tests for cinebody",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e-setup": "node_modules/selenium-standalone/bin/selenium-standalone install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karinamzalez/nightwatch-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karinamzalez/nightwatch-testing/issues"
+  },
+  "homepage": "https://github.com/karinamzalez/nightwatch-testing#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "selenium-standalone": "^6.9.0",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "nightwatch": "^0.9.16"
+  }
+}
